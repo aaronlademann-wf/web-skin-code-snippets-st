@@ -1,0 +1,310 @@
+<snippet>
+	<content><![CDATA[
+<div class="ribbon-nav-container">
+    <div role="presentation" class="tabbable ribbon-nav nav">
+        <div role="presentation" class="subnav tab-content">
+            <!-- FILE RIBBON MENU -->
+            <div role="tabpanel" 
+                 id="fileTab" 
+                 class="tab-pane active"
+                 aria-labelledby="fileTabToggle">
+                <div role="menubar" class="btn-toolbar btn-toolbar-condensed">
+                    <div role="menu" class="btn-share">
+                        <button class="btn btn-xs btn-primary btn-callout">
+                            Share
+                        </button>
+                        <div role="menu" class="btn-group">
+                            <button class="btn btn-sm btn-vanilla no-text" title="undo">
+                                <span class="sr-only">undo</span>
+                                <i class="icon icon-undo text-orange"></i>
+                            </button>
+                            <button class="btn btn-sm btn-vanilla no-text" title="redo">
+                                <span class="sr-only">redo</span>
+                                <i class="icon icon-redo text-blue"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div role="menu" class="btn-group">
+                        <button class="btn btn-vanilla btn-vertical">
+                            <i class="icon icon-md icon-folder-open"></i>
+                            <small>Open</small>
+                        </button>
+                        <button class="btn btn-vanilla btn-vertical">
+                            <i class="icon icon-md icon-file-save"></i>
+                            <small>Save</small>
+                        </button>
+                        <div role="presentation" class="dropdown">
+                            <button id="saveAsToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-save-as"></i>
+                                <small>Save As&hellip;</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="saveAsToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">PDF</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">DOC</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">DOCX (Beta)</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div role="presentation" class="dropdown">
+                            <button id="importToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-import"></i>
+                                <small>Import</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="importToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">Document or Project&hellip;</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">From DOCX (Beta)&hellip;</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">From SEC (Beta)&hellip;</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">From PPTX (Beta)&hellip;</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-vanilla btn-vertical">
+                            <i class="icon icon-md icon-two-color icon-file-export"></i>
+                            <small>Export</small>
+                        </button>
+                        <div role="presentation" class="dropdown">
+                            <button id="newFileToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-new"></i>
+                                <small>New</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="newFileToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">Document</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Project</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div role="menu" class="btn-group">
+                        <div role="presentation" class="dropdown">
+                            <button id="validateFileToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-validate"></i>
+                                <small>Validate</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="validateFileToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">Document</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Document (Beta)</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Section</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-vanilla btn-vertical">
+                            <i class="icon icon-md icon-file-paginate"></i>
+                            <small>Paginate</small>
+                        </button>
+                        <div role="presentation" class="dropdown">
+                            <button id="previewFileToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-preview"></i>
+                                <small>Preview</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="previewFileToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">Document</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">EDGAR</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Document (Beta)</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div role="presentation" class="dropdown">
+                            <button id="filePropertiesToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-properties"></i>
+                                <small>Properties</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="filePropertiesToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">Document Properties</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Section Properties</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Paragraph Properties</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Link Properties</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div role="presentation" class="dropdown">
+                            <button id="fileControlToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-control"></i>
+                                <small>Control</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="fileControlToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">Outline</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Section</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div role="menu" class="btn-group">
+                        <button class="btn btn-vanilla btn-vertical">
+                            <i class="icon icon-md icon-two-color icon-view-trash"></i>
+                            <small>View</small>
+                        </button>
+                        <button class="btn btn-vanilla btn-vertical">
+                            <i class="icon icon-md icon-two-color icon-file-trash"></i>
+                            <small>Discard</small>
+                        </button>
+                        <button class="btn btn-vanilla btn-vertical">
+                            <i class="icon icon-md text-orange icon-close"></i>
+                            <small>Close</small>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOOK RIBBON MENU -->
+            <div role="tabpanel" 
+                 id="bookTab" 
+                 class="tab-pane"
+                 aria-labelledby="bookTabToggle">
+                <div role="menubar" class="btn-toolbar">
+                    <div role="menu" class="btn-group">
+                        <button class="btn btn-vanilla btn-vertical">
+                            <i class="icon icon-md icon-library-bookshelf"></i>
+                            <small>Library</small>
+                        </button>
+                    </div>
+                    <!-- -->
+                    <div role="menu" class="btn-group">
+                        <button class="btn btn-vanilla btn-vertical" title="Create a new book">
+                            <i class="icon icon-md icon-book-binder"></i>
+                            <small>New</small>
+                        </button>
+                        <button class="btn btn-vanilla btn-vertical" title="Export your book as a PDF">
+                            <i class="icon icon-md icon-two-color icon-file-pdf"></i>
+                            <small>Export PDF</small>
+                        </button>
+                    </div>
+                    <!-- -->
+                    <div role="menu" class="btn-group">
+                        <div role="presentation" class="dropdown">
+                            <button id="addBookContentToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    title="Add content to your book"
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-new"></i>
+                                <small>Add</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="addBookContentToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">Tab</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">Document</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-vanilla btn-vertical" title="Edit book properties">
+                            <i class="icon icon-md icon-two-color icon-file-properties"></i>
+                            <small>Properties</small>
+                        </button>
+                        <button class="btn btn-vanilla btn-vertical" title="Edit book permissions">
+                            <i class="icon icon-md icon-two-color icon-file-control"></i>
+                            <small>Permissions</small>
+                        </button>
+                        <div role="presentation" class="dropdown">
+                            <button id="viewBookToggle" 
+                                    class="btn btn-vanilla btn-vertical dropdown-toggle" 
+                                    title="View your book"
+                                    data-toggle="dropdown">
+                                <i class="icon icon-md icon-two-color icon-file-preview"></i>
+                                <small>View</small>
+                                <i class="caret"></i>
+                            </button>
+                            <ul role="menu" class="dropdown-menu"
+                                aria-labelledby="viewBookToggle">
+                                <li role="presentation">
+                                    <button class="hitarea">Unpublished content</button>
+                                </li>
+                                <li class="divider"></li>
+                                <li role="presentation">
+                                    <button class="hitarea">v4: Aug 21st at 8:41 AM - Aaron Lademann</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">v3: Aug 20th at 7:16 AM - Aaron Lademann</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">v2: Jul 29th at 9:34 AM - Aaron Lademann</button>
+                                </li>
+                                <li role="presentation">
+                                    <button class="hitarea">v1: Jul 29th at 9:31 AM - Aaron Lademann</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div role="menu" class="btn-group">
+                        <button class="btn btn-vanilla btn-vertical" title="Delete this book">
+                            <i class="icon icon-md icon-trash text-orange"></i>
+                            <small>Delete</small>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-navbar:ribbon</tabTrigger>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<div class="popover ${1:top|bottom|left|right}">
+    ${2:<div class="arrow"></div>}
+    <div class="inner">
+        <h3 class="title">${3:Title}</h3>
+        <div class="content">
+        ${4:Content}
+        </div>
+    </div>
+</div>
+]]></content>
+    <tabTrigger>wdesk-popover</tabTrigger>
+</snippet>

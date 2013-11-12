@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="navbar-brand">
+    <a role="link" class="brand-link" href="${1:#app-home}">
+        <div role="img" class="brand-logo">
+            <span class="sr-only">Wdesk</span>
+            <div class="visible-retina"></div>
+            <div class="hidden-retina"></div>
+            <!--[if lt IE 9]>
+                <img src="${2:../}img/brand/wdesk-logo_color.png">
+            <![endif]-->
+        </div>
+    </a>
+</div>
+]]></content>
+	<tabTrigger>wdesk-navbar:navbar-brand</tabTrigger>
+</snippet>

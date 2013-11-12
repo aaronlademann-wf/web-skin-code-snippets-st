@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+<div class="panel panel-${1:default}">
+	<!-- Default panel contents -->
+	<div class="panel-heading">
+		${2:<h3 class="panel-title">Panel title</h3>}
+	</div>
+	<div class="panel-body">
+		<p>${3:Text goes here...}</p>
+	</div>
+
+	<!-- Table -->
+	<table class="table">
+		<thead>
+			<tr>
+				<th>${4:Heading 1}</th>
+			</tr>
+			<tr>
+				<th>${6:Heading 2}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>${5:Content 1}</td>
+			</tr>
+			<tr>
+				<td>${7:Content 2}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+]]></content>
+	<tabTrigger>wdesk-panel:table</tabTrigger>
+</snippet>

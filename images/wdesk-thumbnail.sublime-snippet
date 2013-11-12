@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<a href="${1:#}-larger" title="Click to view a larger version of ${2:Image Title}" class="thumbnail">
+    <img src="${1:#}" alt="${2:Image Title}">
+</a>
+]]></content>
+	<tabTrigger>wdesk-image:thumbnail</tabTrigger>
+</snippet>

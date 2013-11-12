@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="thumbnail">
+	<img src="${1:#}" alt="${3:Image Title}" style="width: ${4:140px};">
+	<div class="caption" style="width: ${4:140px};">
+		<h3>${3:Title}</h3>
+		<p>
+			${5:Image Description}
+		</p>
+		<p>
+			<a href="${6:#}" class="btn btn-primary">${7:Action}</a>
+			<a href="${8:#}" class="btn btn-default">${9:Action}</a>
+		</p>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-image:thumbnail:content</tabTrigger>
+</snippet>

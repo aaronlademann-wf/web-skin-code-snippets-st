@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<input type="tel" name="input-${2:${1:tel}}" id="input-${3:${1:tel}}" class="form-control" ${4:value="${5}"} ${6:required} ${7:title="${8}"}>
+]]></content>
+	<tabTrigger>wdesk-input:tel</tabTrigger>
+</snippet>

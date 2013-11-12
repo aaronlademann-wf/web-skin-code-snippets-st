@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+<div class="tooltip nav-tooltip dialog-gray ${1:top|bottom|left|right}">
+    <div class="arrow"></div>
+    <div class="inner">
+        <ul class="nav nav-pills">
+            ${2:<li>
+                <button class="hitarea">
+                    <i class="icon icon-md icon-${3:highlighter}"></i>
+                    ${4:Highlight}
+                </button>
+            </li>
+            }${3:<li>
+                <button class="hitarea">
+                    <i class="icon icon-md icon-${5:comment-alt}"></i>
+                    ${6:Comment}
+                </button>
+            </li>
+            }
+        </ul>
+    </div>
+</div>
+]]></content>
+    <tabTrigger>wdesk-tooltip-nav</tabTrigger>
+</snippet>

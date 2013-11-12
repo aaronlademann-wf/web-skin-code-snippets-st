@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<${1:ul} class="breadcrumb${2: breadcrumb-bordered}">
+	<li>
+		<a class="hitarea" href="${3:#}">${4:Home}</a>
+	</li>
+	${5:<li>
+		<a class="hitarea" href="${6:#}">${7:Link}</a>
+	</li>}
+	<li class="active">${8:Current}</li>
+</${1:ul}>
+]]></content>
+	<tabTrigger>wdesk-breadcrumbs</tabTrigger>
+</snippet>

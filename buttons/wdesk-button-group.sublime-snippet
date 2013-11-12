@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group">
+	<${1:button} ${2:type="button"} class="btn">Left</${1:button}>
+	<${1:button} ${2:type="button"} class="btn">Middle</${1:button}>
+	<${1:button} ${2:type="button"} class="btn">Right</${1:button}>
+</div>
+]]></content>
+	<tabTrigger>wdesk-button:group</tabTrigger>
+</snippet>

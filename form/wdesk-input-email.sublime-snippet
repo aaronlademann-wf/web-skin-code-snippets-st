@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<input type="email" name="input-${2:${1:email}}" id="input-${3:${1:email}}" class="form-control" ${4:value="${5}"} ${6:required} ${7:title="${8}"}>
+]]></content>
+	<tabTrigger>wdesk-input:email</tabTrigger>
+</snippet>

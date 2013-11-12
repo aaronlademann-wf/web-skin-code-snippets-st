@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<span class="badge badge-alt">${1:$SELECTION}</span>
+]]></content>
+	<tabTrigger>wdesk-badge:alt</tabTrigger>
+</snippet>

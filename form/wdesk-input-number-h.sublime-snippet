@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+    <label for="input-${1:number}" class="col-sm-2 control-label">${2:${1:number}}:</label>
+    <div class="col-sm-10">
+        <input type="number" name="input-${3:${1:number}}" id="input-${4:${1:number}}" class="form-control" ${5:value="${6}"}  ${7:min="{8}"} ${9:max="${10}"} ${11:step="${12}"} ${13:required="required"} ${12:title="${13}"}>
+    </div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-input:number:h</tabTrigger>
+</snippet>

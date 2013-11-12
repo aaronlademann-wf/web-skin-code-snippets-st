@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<!-- Nest this between .modal-header and the first .modal-body elem -->
+<div class="modal-actions modal-alert">
+    <div class="alert alert-success">
+        <i class="icon icon-md icon-checkmark-sign"></i>
+        ${1:$SELECTION}
+    </div>
+</div>
+]]></content>
+    <tabTrigger>wdesk-modal:notification:success</tabTrigger>
+</snippet>

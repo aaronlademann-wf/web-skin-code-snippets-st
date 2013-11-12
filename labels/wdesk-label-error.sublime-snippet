@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<span class="label label-error">${1:$SELECTION}</span>
+]]></content>
+	<tabTrigger>wdesk-label:error</tabTrigger>
+</snippet>

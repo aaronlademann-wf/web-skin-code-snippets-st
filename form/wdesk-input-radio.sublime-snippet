@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="radio">
+	<label>
+		<input type="radio" name="radio-${2:${1:name}}" id="radio-${3:${1:name}}" value="${4}" ${5:checked}>
+        ${6:${1:name}} label
+	</label>
+</div>
+]]></content>
+	<tabTrigger>wdesk-input:radio</tabTrigger>
+</snippet>

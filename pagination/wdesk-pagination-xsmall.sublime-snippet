@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<ul class="nav pagination pagination-xs">
+    <li><a class="hitarea" href="#">&laquo;</a></li>
+    <li><a class="hitarea" href="#">1</a></li>
+    <li><a class="hitarea" href="#">2</a></li>
+    <li><a class="hitarea" href="#">3</a></li>
+    <li><a class="hitarea" href="#">4</a></li>
+    <li><a class="hitarea" href="#">5</a></li>
+    <li><a class="hitarea" href="#">&raquo;</a></li>
+</ul>
+]]></content>
+    <tabTrigger>wdesk-pagination:xsmall</tabTrigger>
+</snippet>

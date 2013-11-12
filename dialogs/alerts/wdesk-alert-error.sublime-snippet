@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="alert alert-error${1: fade}">
+    <button class="close" data-dismiss="alert">&times;</button>
+    <p><strong>${2:Oh snap!}</strong> ${3:Change a few things up and try submitting again.}</p>
+</div>
+]]></content>
+	<tabTrigger>wdesk-alert:error</tabTrigger>
+</snippet>

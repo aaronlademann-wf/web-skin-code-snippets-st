@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	${0:$SELECTION}
+</div>
+]]></content>
+	<tabTrigger>wdesk-grid:col:11</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<select name="select-${2:${1:select}}" id="select-${3:${1:select}}" class="form-control">
+    <option value="" selected>${4:-- Select One --}</option>
+</select>
+]]></content>
+	<tabTrigger>wdesk-input:select</tabTrigger>
+</snippet>

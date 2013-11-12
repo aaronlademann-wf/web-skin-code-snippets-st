@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>${1:Title Page}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 
+            STYLESHEET(S) (always before scripts) 
+        -->
+
+        <!--[if !IE]> -->
+        <link href="${2:css/wdesk.min.css}" rel="stylesheet" media="screen">
+        <!-- <![endif]-->
+        <!--[if IE]>
+        <link href="${3:css/wdesk_ie.min.css}" rel="stylesheet" media="screen">
+        <![endif]-->
+
+        <!-- 
+            CORE JAVASCRIPT
+        -->
+        <script src="${4:js/jquery.min.js}"></script>
+        <!--[if !IE]> -->
+        <script src="${5:js/libs.min.js}"></script>
+        <!-- <![endif]-->
+        <!--[if IE]>
+        <script src="${6:js/libs_ie.min.js}"></script>
+        <![endif]-->
+	</head>
+	<body>
+		<h1>${7:Hello WebFilers!}</h1>
+
+		<!-- 
+            PLUGIN JAVASCRIPT
+            Include all compiled plugins (shown below)
+            or include individual files as needed
+        -->
+		<script src="${8:js/web-skin.min.js}"></script>
+	</body>
+</html>
+]]></content>
+	<tabTrigger>wdesk-template:html</tabTrigger>
+</snippet>

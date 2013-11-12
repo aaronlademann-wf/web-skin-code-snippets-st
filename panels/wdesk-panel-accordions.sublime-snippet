@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+<div id="${1:panel-accordion-id}">
+    <div class="panel-group">
+        <div class="panel panel-${2:default}">
+            <div class="panel-heading${3: open}"
+                 data-toggle="collapse"
+                 data-target="#${4:general}"
+                 ${5:data-parent="#panel-accordion-id"}>
+                <h3 class="panel-title">${6:General}</h3>
+                <span class="caret"></span>
+            </div>
+            <div id="${4:general}" class="panel-collapse collapse${8: in}">
+                <div class="panel-body">
+                    ${9: General content}
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-${2:default}">
+            <div class="panel-heading"
+                 data-toggle="collapse"
+                 data-target="#${10:legend}"
+                 ${5:data-parent="#panel-accordion-id"}>
+                <h3 class="panel-title">${11:Legend}</h3>
+                <span class="caret"></span>
+            </div>
+            <div id="${10:legend}" class="panel-collapse collapse">
+                <div class="panel-body">
+                    ${12: Legend content}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-panel:accordion</tabTrigger>
+</snippet>

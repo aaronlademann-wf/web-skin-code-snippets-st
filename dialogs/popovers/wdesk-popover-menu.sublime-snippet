@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<div class="popover ${1:top|bottom|left|right}">
+    ${2:<div class="arrow"></div>}
+    <div class="inner">
+        <h3 class="title" id="${3:popover-title}">${4:Title}</h3>
+        <div class="content flush">
+            <ul role="menu" class="nav nav-list" aria-labelledby="${3:popover-title}">
+                <li><${4:a} class="hitarea" ${5:href="#"}>${6:<i class="icon icon-${7:pencil}"></i> }${8:Edit}</${4:a}></li>
+            </ul>
+        </div>
+    </div>
+</div>
+]]></content>
+    <tabTrigger>wdesk-popover-menu</tabTrigger>
+</snippet>

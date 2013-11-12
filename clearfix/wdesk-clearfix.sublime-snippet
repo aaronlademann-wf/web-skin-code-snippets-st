@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<div class="clearfix"${1: style="height: ${2:20px};"}></div>
+]]></content>
+	<tabTrigger>wdesk-clearfix</tabTrigger>
+</snippet>

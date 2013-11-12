@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+<div class="modal modal-sm${1: fade}" tabindex="-1" role="dialog" aria-labelledby="${2:modal-title-id}">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="${3:${2:modal-title-id}}">${4:Modal title}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="body-content">
+                    ${5:<p>Paragraph contents of a small modal dialog.</p>}
+                </div>
+            </div>
+            ${6:
+            <div class="modal-actions modal-footer">
+                <button class="btn btn-link" data-dismiss="modal">Cancel</button>
+                <button class="btn btn-primary">${7:Save changes}</button>
+            </div>
+            }
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dalog -->
+</div><!-- /.modal -->
+]]></content>
+    <tabTrigger>wdesk-modal:sm</tabTrigger>
+</snippet>

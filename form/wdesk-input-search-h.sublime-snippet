@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+    <label for="input-${1:search}" class="col-sm-2 control-label">${2:${1:search}}:</label>
+    <div class="col-sm-10">
+        <input type="search" name="input-${3:${1:search}}" id="input-${4:${1:search}}" class="form-control" ${5:value="${6}"} ${7:required} ${8:title="${9}"}>
+    </div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-input:search:h</tabTrigger>
+</snippet>

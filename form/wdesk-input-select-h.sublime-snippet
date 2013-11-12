@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+    <label for="select-${1:select}" class="col-sm-2 control-label">${2:${1:select}}:</label>
+    <div class="col-sm-10">
+        <select name="select-${3:${1:select}}" id="select-${4:${1:select}}" class="form-control">
+            <option value="" selected>${5:-- Select One --}</option>
+        </select>
+    </div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-input:select:h</tabTrigger>
+</snippet>

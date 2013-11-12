@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="panel panel-${1:default}">
+	<!-- Default panel contents -->
+	<div class="panel-heading">
+		${2:<h3 class="panel-title">Panel title</h3>}
+	</div>
+	<div class="panel-body">
+		<p>${3:Text goes here...}</p>
+	</div>
+
+	<!-- List group -->
+    <ul class="list-group">
+        <li class="list-group-item">${4:Item 1}</li>
+        <li class="list-group-item">${5:Item 2}</li>
+        <li class="list-group-item">${6:Item 3}</li>
+    </ul>
+</div>
+]]></content>
+	<tabTrigger>wdesk-panel:list-groups</tabTrigger>
+</snippet>

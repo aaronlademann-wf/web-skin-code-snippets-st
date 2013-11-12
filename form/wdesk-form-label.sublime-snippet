@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<label for="${1}" ${2:class="col-sm-2"}>${0:$SELECTION}</label>
+]]></content>
+	<tabTrigger>wdesk-form:label</tabTrigger>
+</snippet>

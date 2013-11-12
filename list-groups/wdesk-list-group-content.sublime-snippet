@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="list-group${1: list-group-bordered}">
+	<a href="#" class="list-group-item active">
+		<${2:h5} class="list-group-item-heading">${3:List group item heading}</${2:h5}>
+		<p class="list-group-item-text">${4:Content goes here}</p>
+	</a>
+</div>
+]]></content>
+	<tabTrigger>wdesk-list-group:custom-content</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<input type="color" name="input-${2:${1:color}}" id="input-${3:${1:color}}" class="form-control" ${4:value="${5}"} ${6:required} ${7:title="${8}"}>
+]]></content>
+	<tabTrigger>wdesk-input:color</tabTrigger>
+</snippet>

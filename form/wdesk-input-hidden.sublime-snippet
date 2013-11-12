@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<input type="hidden" name="input-${1:hidden}" id="input-${1:hidden}" class="form-control" ${2:value="${3}"}>
+]]></content>
+	<tabTrigger>wdesk-input:hidden</tabTrigger>
+</snippet>

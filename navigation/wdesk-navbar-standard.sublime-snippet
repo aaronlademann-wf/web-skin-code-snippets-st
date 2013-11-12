@@ -1,0 +1,175 @@
+<snippet>
+	<content><![CDATA[
+<nav role="navigation" class="navbar navbar-fixed-top">
+    <div class="container">
+        <ul role="menu" class="nav mobile nav-blocks">
+            <li role="presentation">
+                <button id="${1:secondary-menu-toggle}"
+                        class="navbar-toggle hitarea no-text collapsed" 
+                        data-toggle="collapse" 
+                        data-target=".${2:secondary-nav-collapse}">
+                    <i class="icon icon-menu-list"></i>
+                </button>
+            </li>
+        </ul>
+        <div class="navbar-brand">
+            <a role="link" class="brand-link" href="#">
+                <div role="img" class="brand-logo">
+                    <span class="sr-only">Wdesk</span>
+                    <div class="visible-retina"></div>
+                    <div class="hidden-retina"></div>
+                    <!--[if lt IE 9]>
+                        <img src="${3:../}img/brand/wdesk-logo_color.png">
+                    <![endif]-->
+                </div>
+            </a>
+        </div>
+
+        ${9:
+        <!-- Tab Menu For Optional Ribbon -->
+        <ul id="solution-menu" role="tablist" class="nav">
+            <li role="presentation" class="active">
+                <button role="tab"
+                        id="fileTabToggle" 
+                        class="hitarea" 
+                        data-target="#fileTab" 
+                        data-toggle="tab">
+                    File
+                </button>
+            </li>
+            <li role="presentation" class="active">
+                <button role="tab"
+                        id="bookTabToggle" 
+                        class="hitarea" 
+                        data-target="#bookTab" 
+                        data-toggle="tab">
+                    Books
+                </button>
+            </li>
+        </ul>
+        }
+
+        <div class="${2:secondary-nav-collapse} nav-collapse collapse" 
+             aria-labelledby="${1:secondary-menu-toggle}">
+            <ul role="menu" id="${4:global-menu}" class="nav nav-tabs nav-secondary pull-right">
+                <li role="presentation" class="dropdown">
+                    <a role="button" 
+                       id="${5:global-profile-tab}" 
+                       class="hitarea dropdown-toggle" 
+                       data-toggle="dropdown" 
+                       href="#">
+                        ${6: User Name}
+                        <i class="caret"></i>
+                    </a>
+                    <ul role="menu" class="dropdown-menu flush" 
+                        aria-labelledby="${5:global-profile-tab}">
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" href="#" target="_self">
+                                My Profile
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" href="#" target="_self">
+                                My Solutions
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" 
+                               href="#" target="_self">
+                                Switch Account
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea signout-link" tabindex="-1" href="#" target="_self">
+                                Sign Out
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a role="button" 
+                       id="${7:global-admin-tab}" 
+                       class="hitarea dropdown-toggle" 
+                       data-toggle="dropdown" 
+                       href="#">
+                        Admin 
+                        <i class="caret"></i>
+                    </a>
+                    <ul role="menu" class="dropdown-menu flush" 
+                        aria-labelledby="${7:global-admin-tab}">
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" href="#" target="admin">
+                                External Reporting
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" href="#" target="admin">
+                                Section 16
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" href="#" target="admin">
+                                Books
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" href="#" target="admin">
+                                Certification
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" href="#" target="admin">
+                                Super Admin
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" class="hitarea" tabindex="-1" href="#" target="admin">
+                                Server Admin
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <ul role="menu" id="${8:global-help-menu}" class="nav nav-blocks ${8:global-help-menu}">
+            <li role="presentation" class="global-community">
+                <button id="global-help-tab" class="hitarea no-text global-help-tab" 
+                        data-toggle="popover" 
+                        data-placement="bottom"
+                        data-content-container="temporary"
+                        data-content="#global-help-popover-content" 
+                        data-target="global-help-popover"
+                        data-modal="true">
+                    <span class="sr-only">Support</span>
+                    <i class="icon icon-support icon-md"></i>
+                </button>
+                <div class="hide" id="global-help-popover-content" aria-hidden="true">
+                    <div class="content flush">
+                        <ul role="menu" class="nav nav-list" aria-labelledby="global-help-tab">
+                            <li role="presentation">
+                                <a role="menuitem" href="${9:base_help|safe}" class="hitarea" target="help">
+                                    Help
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" href="${10:url_community|safe}" class="hitarea" target="community">
+                                    Community
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" href="${11:base_university|safe}" class="hitarea" target="university">
+                                    University
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    ${9:<!-- OPTIONAL RIBBON MENU GOES HERE (SNIPPET: wdesk-navbar:ribbon + tab) -->}
+</nav>
+]]></content>
+	<tabTrigger>wdesk-navbar:standard</tabTrigger>
+</snippet>

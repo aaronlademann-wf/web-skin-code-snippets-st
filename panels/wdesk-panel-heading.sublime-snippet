@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="panel panel-${1:default}">
+	  <div class="panel-heading">
+			${2:<h3 class="panel-title">Panel title</h3>}
+	  </div>
+	  <div class="panel-body">
+			${3:Panel content}
+	  </div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-panel:heading</tabTrigger>
+</snippet>

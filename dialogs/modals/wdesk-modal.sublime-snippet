@@ -1,0 +1,43 @@
+<snippet>
+    <content><![CDATA[
+<div class="modal${1: fade}" tabindex="-1" role="dialog" aria-labelledby="${2:modal-title-id}">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="${3:${2:modal-title-id}}">${4:Modal title}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="body-content">
+                    ${5:
+                    ${6:<h3>Heading</h3>}
+                    ${7:<p>Paragraph contents of a Dialog. Ut enim ad minim 
+                    veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute 
+                    irure dolor in reprehenderit in voluptate velit 
+                    esse cillum dolore eu fugiat nulla pariatur.</p>}
+                    }
+                </div>
+                ${8:
+                <div class="modal-actions">
+                    <div class="col-xs-9">
+                        <p>Actions within a modal can go anywhere!</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="#" class="btn">Do something</a>
+                    </div>
+                </div>
+                }
+            </div>
+            ${9:
+            <div class="modal-actions modal-footer">
+                <button class="btn btn-link" data-dismiss="modal">Cancel</button>
+                <button class="btn btn-primary">${10:Save changes}</button>
+            </div>
+            }
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dalog -->
+</div><!-- /.modal -->
+]]></content>
+    <tabTrigger>wdesk-modal</tabTrigger>
+</snippet>

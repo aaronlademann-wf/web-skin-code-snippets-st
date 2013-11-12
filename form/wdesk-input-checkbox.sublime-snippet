@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="checkbox">
+	<label>
+		<input type="checkbox" name="cbox-${2:${1:name}}" id="cbox-${3:${1:name}}" value="${4}" ${5:checked}>
+		${6:${1:name}} label
+	</label>
+</div>
+]]></content>
+	<tabTrigger>wdesk-input:checkbox</tabTrigger>
+</snippet>

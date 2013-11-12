@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<input type="time" name="input-${2:${1:time}}" id="input-${3:${1:time}}" class="form-control" ${4:value="${5}"} ${6:required} ${7:title="${8}"}>
+]]></content>
+	<tabTrigger>wdesk-input:time</tabTrigger>
+</snippet>

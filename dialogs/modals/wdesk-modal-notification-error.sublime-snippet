@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<!-- Nest this between .modal-header and the first .modal-body elem -->
+<div class="modal-actions modal-alert">
+    <div class="alert alert-error">
+        <i class="icon icon-md icon-blocked"></i>
+        ${1:$SELECTION}
+    </div>
+</div>
+]]></content>
+    <tabTrigger>wdesk-modal:notification:error</tabTrigger>
+</snippet>

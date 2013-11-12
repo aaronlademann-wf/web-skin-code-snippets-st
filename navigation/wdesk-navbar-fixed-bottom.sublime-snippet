@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<nav role="navigation" class="navbar navbar-fixed-bottom">
+    <div class="container">
+        <ul class="nav navbar-nav">
+			<li class="active">
+				<a class="hitarea" href="${1:#}">${2:Home}</a>
+			</li>
+			<li>
+				<a class="hitarea" href="${3:#}">${4:Link}</a>
+			</li>
+		</ul>
+    </div>
+</nav>
+]]></content>
+	<tabTrigger>wdesk-navbar:fixed-bottom</tabTrigger>
+</snippet>

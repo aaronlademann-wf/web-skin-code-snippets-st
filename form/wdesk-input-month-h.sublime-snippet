@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+    <label for="input-${1:month}" class="col-sm-2 control-label">${2:${1:month}}:</label>
+    <div class="col-sm-10">
+        <input type="month" name="input-${3:${1:month}}" id="input-${4:${1:month}}" class="form-control" ${5:value="${6}"} ${7:required} ${8:title="${9}"}>
+    </div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-input:month:h</tabTrigger>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group-vertical">
+	<${1:button} ${2:type="button"} class="btn">Top</${1:button}>
+	<${1:button} ${2:type="button"} class="btn">Middle</${1:button}>
+	<${1:button} ${2:type="button"} class="btn">Bottom</${1:button}>
+</div>
+]]></content>
+	<tabTrigger>wdesk-button:group:vertical</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<span class="badge badge-error">${1:$SELECTION}</span>
+]]></content>
+	<tabTrigger>wdesk-badge:error</tabTrigger>
+</snippet>

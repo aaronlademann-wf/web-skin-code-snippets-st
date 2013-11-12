@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<button type="reset" class="btn">Reset</button>
+]]></content>
+	<tabTrigger>wdesk-input:reset</tabTrigger>
+</snippet>

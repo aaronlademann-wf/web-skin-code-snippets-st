@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="tooltip ${1:top|bottom|left|right}">
+    <div class="arrow"></div>
+    <div class="inner">
+        ${2:Tooltip content}
+    </div>
+</div>
+]]></content>
+    <tabTrigger>wdesk-tooltip</tabTrigger>
+</snippet>
