@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<table class="table table-bordered table-bordered-vertical">
+<table class="table table-bordered table-striped table-bordered-vertical">
 	<thead>
 		<tr>
 			<th></th>
