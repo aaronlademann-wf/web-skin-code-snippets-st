@@ -1,4 +1,4 @@
-web-skin-code-snippets-st
+Web Skin Code Snippets for SublimeText
 =========================
 
-Code Snippets for use with WebFilings' Web Skin - bit.ly/webskin
+Code Snippets for use with WebFilings' Web Skin - <http://bit.ly/webskin>
