@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<div class="progress">
+    <div class="progress-bar${1: progress-bar-${2:success|warning|error|alt}}"${3: style="width: ${4:60%};"}></div>
+</div>
+]]></content>
+    <tabTrigger>wdesk-progress-bar</tabTrigger>
+</snippet>

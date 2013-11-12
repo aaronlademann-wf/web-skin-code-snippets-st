@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<i class="progress-spinner${1: progress-spinner-${2:md|huge|gigantic}}"></i>
+]]></content>
+    <tabTrigger>wdesk-progress-spinner</tabTrigger>
+</snippet>

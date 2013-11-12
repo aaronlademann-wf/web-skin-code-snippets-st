@@ -1,0 +1,58 @@
+<snippet>
+	<content><![CDATA[
+<ul class="nav nav-list${1: nav-list-bordered} nav-list-collapsible"
+    data-collapse-container>
+    <li class="nav-group">
+        <a id="${2:btn_hrMenu}" class="hitarea collapsed" data-activate="true"
+           href="#${3:hrMenu}"
+           data-toggle="collapse">
+            <span class="caret" data-activate="false"></span>
+            ${4:HR Team}
+        </a>
+        <ul id="${3:hrMenu}" class="nav nav-list collapse" 
+            aria-labelledby="${2:btn_hrMenu}">
+            <li>
+                <a class="hitarea" data-activate="true"
+                   href="#${3:hrMenu}"
+                   data-toggle="collapse">
+                    ${5:Menu Item 1}
+                </a>
+            </li>
+            <li>
+                <a class="hitarea" data-activate="true"
+                   href="#${3:hrMenu}"
+                   data-toggle="collapse">
+                    ${6:Menu Item 2}
+                </a>
+            </li>
+        </ul>
+    </li>
+    ${7:<li class="nav-group">
+        <a id="${8:btn_riskMenu}" class="hitarea collapsed" data-activate="true"
+           href="#${9:riskMenu}"
+           data-toggle="collapse">
+            <span class="caret" data-activate="false"></span>
+            ${10:Risk Team}
+        </a>
+        <ul id="${9:riskMenu}" class="nav nav-list collapse" 
+            aria-labelledby="${8:btn_riskMenu}">
+            <li>
+                <a class="hitarea" data-activate="true"
+                   href="#${9:riskMenu}"
+                   data-toggle="collapse">
+                    ${11:Menu Item 1}
+                </a>
+            </li>
+            <li>
+                <a class="hitarea" data-activate="true"
+                   href="#${9:riskMenu}"
+                   data-toggle="collapse">
+                    ${12:Menu Item 2}
+                </a>
+            </li>
+        </ul>
+    </li>}
+</ul>
+]]></content>
+	<tabTrigger>wdesk-nav:nav-list:collapsible</tabTrigger>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<ul class="nav nav-list${1: nav-list-bordered}">
+    <li class="active"><a class="hitarea" href="${2:#}">${3:List Item 1}</a></li>
+    <li><a class="hitarea" href="${4:#}">${5:List Item 2}</a></li>
+</ul>
+]]></content>
+	<tabTrigger>wdesk-nav:nav-list</tabTrigger>
+</snippet>

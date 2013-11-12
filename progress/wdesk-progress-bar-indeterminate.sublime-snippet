@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<div class="progress indeterminate">
+    <div class="progress-bar${1: progress-bar-${2:success|warning|error|alt}}"></div>
+    <span class="progress-label">${3:Processing&hellip;}</span>
+</div>
+]]></content>
+    <tabTrigger>wdesk-progress-bar:indeterminate</tabTrigger>
+</snippet>

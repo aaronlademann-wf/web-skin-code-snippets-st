@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+<div class="dropdown${1: dropup}">
+    <button id="${2:dropdownMenu}" class="${3:btn} dropdown-toggle">
+        ${4:Dropdown}
+        <span class="caret"></span>
+    </button>
+    <ul role="menu" class="dropdown-menu" aria-labelledby="${2:dropdownMenu}">
+        <li>
+            <a class="hitarea" tabindex="-1" href="${5:#}">${6:Action}</a>
+        </li>
+        ${7:<li class="divider"></li>
+        <li>
+            <a class="hitarea" tabindex="-1" href="${8:#}">${9:Separated link}</a>
+        </li>
+        <li class="divider"></li>}
+        ${10:<li>
+            <a class="hitarea" tabindex="-1" href="${11:#}">${12:Another action}</a>
+        </li>}
+        ${13:<li class="dropdown-header">Dropdown header</li>}
+        ${14:<li>
+            <a class="hitarea" tabindex="-1" href="${15:#}">${16:Another action}</a>
+        </li>}
+    </ul>
+</div>
+]]></content>
+    <tabTrigger>wdesk-dropdown</tabTrigger>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<div class="tabbable${1: tabs-${2:below|left|right}}">
+    <ul class="nav nav-tabs${3: nav-justified}">
+        <li class="active"><a class="hitarea" href="#${4:tab1}" data-toggle="tab">${5:Section 1}</a></li>
+        <li><a class="hitarea" href="#${6:tab2}" data-toggle="tab">${7:Section 2}</a></li>
+        <li><a class="hitarea" href="#${8:tab3}" data-toggle="tab">${9:Section 3}</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="${4:tab1}">
+            <p>I'm in ${5:Section 1}.</p>
+        </div>
+        <div class="tab-pane" id="${6:tab2}">
+            <p>Howdy, I'm in ${7:Section 2}.</p>
+        </div>
+        <div class="tab-pane" id="${8:tab3}">
+            <p>What up girl, this is ${9:Section 3}.</p>
+        </div>
+    </div>
+</div>
+]]></content>
+	<tabTrigger>wdesk-nav:nav-tabs</tabTrigger>
+</snippet>
