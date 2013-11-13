@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<div class="checkbox">
+<div class="checkbox${1:-inline}">
 	<label>
-		<input type="checkbox" name="cbox-${2:${1:name}}" id="cbox-${3:${1:name}}" value="${4}" ${5:checked}>
-		${6:${1:name}} label
+		<input type="checkbox" name="cbox-${3:${2:name}}" id="cbox-${4:${2:name}}" value="${5}" ${6:checked}>
+		${7:${2:name}} label
 	</label>
 </div>
 ]]></content>
