@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<span class="badge badge-success">${1:$SELECTION}</span>
-]]></content>
-	<tabTrigger>wdesk-badge:success</tabTrigger>
-</snippet>

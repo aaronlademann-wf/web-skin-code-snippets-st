@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 <ul class="nav pager">
-	<li><a class="hitarea" href="#">Previous</a></li>
-	<li><a class="hitarea" href="#">Next</a></li>
+	<li><a class="hitarea" href="${1:#}">${2:Previous}</a></li>
+	<li><a class="hitarea" href="${3:#}">${4:Next}</a></li>
 </ul>
 ]]></content>
 	<tabTrigger>wdesk-pager</tabTrigger>

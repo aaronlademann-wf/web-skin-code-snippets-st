@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<span class="label label-success">${1:$SELECTION}</span>
-]]></content>
-	<tabTrigger>wdesk-label:success</tabTrigger>
-</snippet>

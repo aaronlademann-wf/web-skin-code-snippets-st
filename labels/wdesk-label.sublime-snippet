@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<span class="label${1: label-${2:success}}">${3:$SELECTION}</span>
+<span class="label${1: label-${2:success|warning|error|alt}}">${3:$SELECTION}</span>
 ]]></content>
 	<tabTrigger>wdesk-label</tabTrigger>
 </snippet>

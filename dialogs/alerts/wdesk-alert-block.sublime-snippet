@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<div class="alert alert-block${1: alert-${2:warning}}${3: fade}">
+<div class="alert alert-block${1: alert-${2:alt|success|warning|error}}${3: fade}">
     <button class="close" data-dismiss="alert">&times;</button>
-    <h4 class="alert-heading">${4:Confirmation}</h4>
-    <p>${5:Something happened, I swear.}</p>
+    <h4 class="alert-heading">${4:Alert title}</h4>
+    <p>${5:Alert content.}</p>
 </div>
 ]]></content>
 	<tabTrigger>wdesk-alert:block</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<button class="btn btn-xs btn-${1:primary} navbar-btn">${2:Button Text}</button>
+<button class="btn btn-xs${1: btn-${2:primary}} navbar-btn">${2:Button Text}</button>
 ]]></content>
 	<tabTrigger>wdesk-navbar:navbar-button</tabTrigger>
 </snippet>

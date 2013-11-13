@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 <div class="btn-group">
-	<${1:button} ${2:type="button"} class="btn">Left</${1:button}>
-	<${1:button} ${2:type="button"} class="btn">Middle</${1:button}>
-	<${1:button} ${2:type="button"} class="btn">Right</${1:button}>
+	<${1:button} ${2:type="${3:button}"} class="btn${4: btn-${5:primary}}">Left</${1:button}>
+	<${1:button} ${2:type="${3:button}"} class="btn${4: btn-${5:primary}}">Middle</${1:button}>
+	<${1:button} ${2:type="${3:button}"} class="btn${4: btn-${5:primary}}">Right</${1:button}>
 </div>
 ]]></content>
 	<tabTrigger>wdesk-button:group</tabTrigger>

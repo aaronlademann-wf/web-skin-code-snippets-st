@@ -1,9 +1,15 @@
 <snippet>
 	<content><![CDATA[
-<div class="panel panel-${1:default}">
+<div class="panel panel-${1:default|alt|primary|success|warning|error}">
+    ${2:<div class="panel-heading">
+        ${3:<h3 class="panel-title">}${4:Panel title}${3:</h3>}
+    </div>}
 	<div class="panel-body">
-	   ${2:Basic panel example}
+	   ${5:Panel body text}
 	</div>
+    ${6:<div class="panel-body">
+       ${7:Panel footer text}
+    </div>}
 </div>
 ]]></content>
 	<tabTrigger>wdesk-panel</tabTrigger>

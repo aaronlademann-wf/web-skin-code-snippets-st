@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<span class="label label-alt">${1:$SELECTION}</span>
-]]></content>
-	<tabTrigger>wdesk-label:alt</tabTrigger>
-</snippet>

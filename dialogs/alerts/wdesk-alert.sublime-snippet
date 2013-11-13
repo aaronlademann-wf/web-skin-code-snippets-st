@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<div class="alert${1: alert-${2:warning}}${3: fade}">
+<div class="alert${1: alert-${2:alt|success|warning|error}}${3: fade}">
 	<button class="close" data-dismiss="alert">&times;</button>
-	<p><strong>${4:Default alert}</strong> ${5:When color just doesn't seem right.}</p>
+	<p><strong>${4:Alert title}</strong> ${5:Alert content.}</p>
 </div>
 ]]></content>
 	<tabTrigger>wdesk-alert</tabTrigger>
